@@ -29,6 +29,12 @@ namespace AdventOfCode2025
 
             long day4SecondAnswer = Day4.Day4Second();
             Console.WriteLine($"Day 4 Second Answer: {day4SecondAnswer}");
+
+            long day5FirstAnswer = Day5.Day5First();
+            Console.WriteLine($"Day 5 First Answer: {day5FirstAnswer}");
+
+            long day5SecondAnswer = Day5.Day5Second();
+            Console.WriteLine($"Day 5 Second Answer: {day5SecondAnswer}");
         }
     }
 }
