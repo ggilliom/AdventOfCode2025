@@ -18,7 +18,7 @@
                 int clicks = Convert.ToInt32(line.Substring(1));
 
                 if (direction == 'L')
-                    location = ((location - clicks) % 100 + 100) % 100;
+                    location = ((location - clicks) % 100 + 100) % 100; // normalize location to a positive remainder
                 else
                     location = (location + clicks) % 100;
 
@@ -54,7 +54,7 @@
                             tracker--;
                     }
 
-                    location = ((location - clicks) % 100 + 100) % 100;
+                    location = ((location - clicks) % 100 + 100) % 100; // normalize location to a positive remainder
                 }
                 else
                 {

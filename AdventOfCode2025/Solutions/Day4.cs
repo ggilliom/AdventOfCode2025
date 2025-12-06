@@ -27,12 +27,8 @@
             newLines = newLines.Append(dots).ToArray();
             newLines = newLines.Prepend(dots).ToArray();
 
-            //for (int i = 0; i < newLines.Length; i++)
-            //{
-            //    Console.WriteLine(newLines[i]);
-            //}
-
             // now we've surrounded everything with dots in newLines
+                // ^ avoids needing to check for index boundary errors
 
             for (int row = 1; row < newLines.Length - 1; row++)
             {
@@ -90,9 +86,11 @@
             newLines = newLines.Prepend(dots).ToArray();
 
             // now we've surrounded everything with dots in newLines
+                // ^ avoids needing to check for index boundary errors
 
             bool removedARoll = true;
 
+            // could also propogate out recursively...but this is fine too
             while (removedARoll)
             {
                 removedARoll = false;
