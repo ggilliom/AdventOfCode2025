@@ -41,6 +41,12 @@ namespace AdventOfCode2025
 
             long day6SecondAnswer = Day6.Day6Second();
             Console.WriteLine($"Day 6 Second Answer: {day6SecondAnswer}");
+
+            long day7FirstAnswer = Day7.Day7First();
+            Console.WriteLine($"Day 7 First Answer: {day7FirstAnswer}");
+
+            long day7SecondAnswer = Day7.Day7Second();
+            Console.WriteLine($"Day 7 Second Answer: {day7SecondAnswer}");
         }
     }
 }
