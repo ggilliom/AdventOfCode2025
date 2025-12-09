@@ -78,7 +78,6 @@ namespace AdventOfCode2025.Solutions
                     double distance = GetDistance(p, q);
                     pairs.Add(new Pair(i, j, distance));
                 }
-                Console.WriteLine(i);
             }
 
             pairs = pairs.OrderBy(x => x.Distance).ToList();
@@ -183,7 +182,6 @@ namespace AdventOfCode2025.Solutions
                     double distance = GetDistance(p, q);
                     pairs.Add(new Pair(i, j, distance));
                 }
-                Console.WriteLine(i);
             }
 
             pairs = pairs.OrderBy(x => x.Distance).ToList();

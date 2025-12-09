@@ -53,6 +53,12 @@ namespace AdventOfCode2025
 
             long day8SecondAnswer = Day8.Day8Second();
             Console.WriteLine($"Day 8 Second Answer: {day8SecondAnswer}");
+
+            long day9FirstAnswer = Day9.Day9First();
+            Console.WriteLine($"Day 9 First Answer: {day9FirstAnswer}");
+
+            long day9SecondAnswer = Day9.Day9Second();
+            Console.WriteLine($"Day 9 Second Answer: {day9SecondAnswer}");
         }
     }
 }
